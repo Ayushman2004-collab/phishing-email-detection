@@ -1,7 +1,22 @@
-phishing_email.csv
-model.pkl
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Secrets and local configuration
 .env
+.env.*
+!.env.example
+
+# Local dataset (too large for standard GitHub file storage)
+phishing_email.csv
+
+# Local runtime artifacts
+*.log
+.DS_Store
+Thumbs.db
